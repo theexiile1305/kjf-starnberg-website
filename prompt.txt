@@ -1,0 +1,33 @@
+Erstelle eine moderne, statische Website mit Next.js (static export) und TailwindCSS 
+für eine gemeinnützige Organisation im Bereich Kinder- und Jugendhilfe (KJF Starnberg).
+
+Anforderungen:
+- Responsive, mobile-first Layout
+- Farben: Blau (#005a9c), Grün (#3c9d74), Weiß als Hintergrund
+- Schrift: Sans Serif (z. B. Inter, Roboto)
+- Barrierefreiheit: semantische HTML-Tags, aria-labels
+- Sauber strukturierte Komponenten
+
+Seitenstruktur:
+1. Startseite mit:
+   - Hero-Sektion (großes Bild, Claim, Call-to-Action "Mehr erfahren")
+   - Sektion "Unsere Angebote" → Kartenlayout mit Leistungen (Kinder- und Jugendhilfe, Inklusion, Schulen, Beratung)
+   - Sektion "Aktuelles" → Beispiel-News/Events
+   - Sektion "Über uns" → Mission & Werte
+   - Sektion "Spenden & Unterstützung" → Call-to-Action
+   - Footer mit Kontakt, Adresse, Social Media Links
+2. Seite "Angebote" mit detaillierten Karten/Abschnitten
+3. Seite "Aktuelles" als Blogübersicht (Markdown/Mock-Daten reichen aus)
+4. Seite "Kontakt" mit Formular (Frontend-only, Mailto-Link)
+
+Komponenten:
+- Header mit Logo & Navigation
+- Hero-Komponente
+- Card-Komponente für Angebote
+- Footer mit Links
+- Layout-Komponente für einheitliches Design
+
+Besonderheiten:
+- TailwindCSS für Styling
+- Einfache Animationen mit Framer Motion (z. B. Fade-in beim Scrollen)
+- Inhalte zunächst als Platzhalter (Lorem Ipsum + Beispielbilder)
