@@ -1,11 +1,5 @@
-import { Metadata } from "next"
 import Link from "next/link"
-import { ArrowLeft } from 'lucide-react'
-
-export const metadata: Metadata = {
-  title: "Legal Notice - Lorem Organization",
-  description: "Lorem ipsum legal notice and imprint information",
-}
+import { ArrowLeft, Italic } from 'lucide-react'
 
 export default function LegalNoticePage() {
   return (
@@ -17,109 +11,91 @@ export default function LegalNoticePage() {
           className="inline-flex items-center space-x-2 text-kjf-blue hover:text-kjf-green transition-colors mb-8"
         >
           <ArrowLeft size={20} />
-          <span>Back to Homepage</span>
+          <span>Zurück zur Seite</span>
         </Link>
 
         {/* Header */}
         <div className="mb-12">
-          <h1 className="text-4xl font-bold text-gray-900 mb-4">Legal Notice</h1>
-          <p className="text-gray-600">Lorem ipsum legal information</p>
+          <h1 className="text-4xl font-bold text-gray-900 mb-4">Impressum</h1>
         </div>
 
         {/* Content */}
         <div className="prose prose-lg max-w-none">
           <section className="mb-8">
-            <h2 className="text-2xl font-semibold text-gray-900 mb-4">Lorem Organization Information</h2>
-            <div className="bg-gray-50 p-6 rounded-lg">
-              <p className="text-gray-700 leading-relaxed mb-2">
-                <strong>Organization Name:</strong> Lorem Organization e.V.
-              </p>
-              <p className="text-gray-700 leading-relaxed mb-2">
-                <strong>Address:</strong> Lorem Street 123, 12345 Lorem City, Germany
-              </p>
-              <p className="text-gray-700 leading-relaxed mb-2">
-                <strong>Phone:</strong> +49 8151 987 65 43
-              </p>
-              <p className="text-gray-700 leading-relaxed mb-2">
-                <strong>Email:</strong> info@lorem-organization.com
-              </p>
-              <p className="text-gray-700 leading-relaxed mb-2">
-                <strong>Registration:</strong> Lorem Registry Court, Registration Number: VR 12345
-              </p>
-              <p className="text-gray-700 leading-relaxed">
-                <strong>Tax ID:</strong> DE123456789
-              </p>
-            </div>
-          </section>
-
-          <section className="mb-8">
-            <h2 className="text-2xl font-semibold text-gray-900 mb-4">Lorem Responsible Person</h2>
-            <p className="text-gray-700 leading-relaxed mb-4">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et 
-              dolore magna aliqua.
-            </p>
-            <div className="bg-gray-50 p-6 rounded-lg">
-              <p className="text-gray-700 leading-relaxed mb-2">
-                <strong>Name:</strong> Lorem Ipsum Director
-              </p>
-              <p className="text-gray-700 leading-relaxed mb-2">
-                <strong>Position:</strong> Executive Director
-              </p>
-              <p className="text-gray-700 leading-relaxed">
-                <strong>Email:</strong> director@lorem-organization.com
-              </p>
-            </div>
-          </section>
-
-          <section className="mb-8">
-            <h2 className="text-2xl font-semibold text-gray-900 mb-4">Lorem Disclaimer</h2>
-            <h3 className="text-xl font-semibold text-gray-900 mb-3">Content Liability</h3>
-            <p className="text-gray-700 leading-relaxed mb-4">
-              Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
-              Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-            </p>
-            
-            <h3 className="text-xl font-semibold text-gray-900 mb-3">Link Liability</h3>
-            <p className="text-gray-700 leading-relaxed mb-4">
-              Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. 
-              Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium.
-            </p>
-
-            <h3 className="text-xl font-semibold text-gray-900 mb-3">Copyright</h3>
+            <h2 className="text-2xl font-semibold text-gray-900 mb-4">Angaben gemäß § 5 DDG</h2>
             <p className="text-gray-700 leading-relaxed">
-              Totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt 
-              explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit.
+                Kreisjugendfeuerwehr im Kreisfeuerwehrverband Starnberg e. V.
             </p>
-          </section>
-
-          <section className="mb-8">
-            <h2 className="text-2xl font-semibold text-gray-900 mb-4">Lorem Data Protection Officer</h2>
-            <p className="text-gray-700 leading-relaxed mb-4">
-              Sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt, neque porro quisquam est, 
-              qui dolorem ipsum quia dolor sit amet.
-            </p>
-            <div className="bg-gray-50 p-6 rounded-lg">
-              <p className="text-gray-700 leading-relaxed mb-2">
-                <strong>Name:</strong> Lorem Data Protection Officer
-              </p>
-              <p className="text-gray-700 leading-relaxed mb-2">
-                <strong>Email:</strong> datenschutz@lorem-organization.com
-              </p>
-              <p className="text-gray-700 leading-relaxed">
-                <strong>Phone:</strong> +49 8151 987 65 44
-              </p>
-            </div>
-          </section>
-
-          <section className="mb-8">
-            <h2 className="text-2xl font-semibold text-gray-900 mb-4">Lorem Dispute Resolution</h2>
-            <p className="text-gray-700 leading-relaxed mb-4">
-              Consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam 
-              aliquam quaerat voluptatem.
+             <p className="text-gray-700 leading-relaxed">
+                <i>c/o Dr. Franz Matheis</i>
             </p>
             <p className="text-gray-700 leading-relaxed">
-              Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid 
-              ex ea commodi consequatur.
+              Buttlerweg 10
+            </p>
+            <p className="text-gray-700 leading-relaxed mb-4">
+              82327 Traubing
+            </p>
+            <div className="bg-gray-50 p-6 rounded-lg">
+              <p className="text-gray-700 leading-relaxed mb-2">
+                <strong>Diensteanbieter:</strong> Kreisfeuerwehrverband Landkreis Starnberg e.V.
+              </p>
+              <p className="text-gray-700 leading-relaxed mb-2">
+                <strong>Vertreten durch:</strong> Kreisjugendfeuerwehrwart Dr. Franz Matheis
+              </p>
+              <p className="text-gray-700 leading-relaxed mb-2">
+                <strong>Kontakt:</strong> Tel: <a href="tel:+49123456789" className="text-kjf-blue">+49 123 456 789</a>, E-Mail: <a href="mailto:mail@example.com" className="text-kjf-blue">mail@example.com</a>
+              </p>
+              <p className="text-gray-700 leading-relaxed mb-2">
+                <strong>Verantwortlich für den Inhalt nach § 18 Abs. 2 MStV:</strong> Dr. Franz Matheis, Buttlerweg 10, 82327 Traubing
+              </p>
+              <p className="text-gray-700 leading-relaxed mb-2">
+                <strong>Register und Registernummer:</strong> Vereinsregister München VR. 71097
+              </p>
+            </div>
+          </section>
+
+          <section className="mb-8">
+            <h2 className="text-2xl font-semibold text-gray-900 mb-4">Haftungsausschluss</h2>
+            <h3 className="text-xl font-semibold text-gray-900 mb-3">Haftung für Inhalte</h3>
+            <p className="text-gray-700 leading-relaxed mb-4">
+              Die Inhalte unserer Seiten wurden mit größter Sorgfalt erstellt. Für die Richtigkeit, Vollständigkeit und Aktualität der Inhalte können wir jedoch 
+              keine Gewähr übernehmen. Als Diensteanbieter sind wir gemäß § 7 Abs.1 DDG für eigene Inhalte auf diesen Seiten nach den allgemeinen Gesetzen 
+              verantwortlich. Nach §§ 8 bis 10 DDG sind wir als Diensteanbieter jedoch nicht verpflichtet, übermittelte oder gespeicherte fremde Informationen zu 
+              überwachen oder nach Umständen zu forschen, die auf eine rechtswidrige Tätigkeit hinweisen. Verpflichtungen zur Entfernung oder Sperrung der Nutzung 
+              von Informationen nach den allgemeinen Gesetzen bleiben hiervon unberührt. Eine diesbezügliche Haftung ist jedoch erst ab dem Zeitpunkt der Kenntnis 
+              einer konkreten Rechtsverletzung möglich. Bei Bekanntwerden von entsprechenden Rechtsverletzungen werden wir diese Inhalte umgehend entfernen.
+            </p>
+            <h3 className="text-xl font-semibold text-gray-900 mb-3">Haftung für Links</h3>
+            <p className="text-gray-700 leading-relaxed mb-4">
+              Unser Angebot enthält Links zu externen Webseiten Dritter, auf deren Inhalte wir keinen Einfluss haben. Deshalb können wir für diese fremden Inhalte 
+              auch keine Gewähr übernehmen. Für die Inhalte der verlinkten Seiten ist stets der jeweilige Anbieter oder Betreiber der Seiten verantwortlich. Die 
+              verlinkten Seiten wurden zum Zeitpunkt der Verlinkung auf mögliche Rechtsverstöße überprüft. Rechtswidrige Inhalte waren zum Zeitpunkt der Verlinkung
+              nicht erkennbar. Eine permanente inhaltliche Kontrolle der verlinkten Seiten ist jedoch ohne konkrete Anhaltspunkte einer Rechtsverletzung nicht zumutbar. 
+              Bei Bekanntwerden von Rechtsverletzungen werden wir derartige Links umgehend entfernen.
+            </p>
+            <h3 className="text-xl font-semibold text-gray-900 mb-3">Urheberrecht</h3>
+            <p className="text-gray-700 leading-relaxed  mb-4">
+              Die durch die Seitenbetreiber erstellten Inhalte und Werke auf diesen Seiten unterliegen dem deutschen Urheberrecht. Die Vervielfältigung, Bearbeitung, 
+              Verbreitung und jede Art der Verwertung außerhalb der Grenzen des Urheberrechtes bedürfen der schriftlichen Zustimmung des jeweiligen Autors bzw. Erstellers. 
+              Downloads und Kopien dieser Seite sind nur für den privaten, nicht kommerziellen Gebrauch gestattet. Soweit die Inhalte auf dieser Seite nicht vom Betreiber 
+              erstellt wurden, werden die Urheberrechte Dritter beachtet. Insbesondere werden Inhalte Dritter als solche gekennzeichnet. Sollten Sie trotzdem auf eine 
+              Urheberrechtsverletzung aufmerksam werden, bitten wir um einen entsprechenden Hinweis. Bei Bekanntwerden von Rechtsverletzungen werden wir derartige Inhalte 
+              umgehend entfernen.
+            </p>
+            <h3 className="text-xl font-semibold text-gray-900 mb-3">Datenschutz</h3>
+            <p className="text-gray-700 leading-relaxed mb-4">
+              Die Nutzung unserer Webseite ist in der Regel ohne Angabe personenbezogener Daten möglich. Soweit auf unseren Seiten personenbezogene Daten (beispielsweise 
+              Name, Anschrift oder eMail-Adressen) erhoben werden, erfolgt dies, soweit möglich, stets auf freiwilliger Basis. Diese Daten werden ohne Ihre ausdrückliche 
+              Zustimmung nicht an Dritte weitergegeben.
+            </p>
+            <p className="text-gray-700 leading-relaxed mb-4">
+              Wir weisen darauf hin, dass die Datenübertragung im Internet (z.B. bei der Kommunikation per E-Mail) Sicherheitslücken aufweisen kann. Ein lückenloser Schutz 
+              der Daten vor dem Zugriff durch Dritte ist nicht möglich.
+            </p>
+            <p className="text-gray-700 leading-relaxed mb-4">
+              Der Nutzung von im Rahmen der Impressumspflicht veröffentlichten Kontaktdaten durch Dritte zur Übersendung von nicht ausdrücklich angeforderter Werbung und 
+              Informationsmaterialien wird hiermit ausdrücklich widersprochen. Die Betreiber der Seiten behalten sich ausdrücklich rechtliche Schritte im Falle der 
+              unverlangten Zusendung von Werbeinformationen, etwa durch Spam-Mails, vor.
             </p>
           </section>
         </div>
