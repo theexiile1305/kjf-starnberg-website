@@ -105,13 +105,13 @@ export default function Footer() {
 
         {/* Bottom Bar */}
         <div className="border-t border-gray-200 mt-8 pt-8 flex flex-col sm:flex-row justify-between items-center space-y-4 sm:space-y-0">
-          <p className="text-sm text-gray-600">© 2024 Lorem Organization. All rights reserved.</p>
+          <p className="text-sm text-gray-600">© {new Date().getFullYear()} Kreisjugendfeuerwehr im Kreisfeuerwehrverband Starnberg e. V..</p>
           <nav className="flex space-x-6" role="navigation" aria-label="Legal Navigation">
             <Link href="/datenschutz" className="text-sm text-gray-600 hover:text-kjf-blue transition-colors">
-              Privacy Policy
+              Datenschutzerklärung
             </Link>
             <Link href="/impressum" className="text-sm text-gray-600 hover:text-kjf-blue transition-colors">
-              Legal Notice
+              Impressum
             </Link>
           </nav>
         </div>
