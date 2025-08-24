@@ -10,9 +10,8 @@ const inter = Inter({
 })
 
 export const metadata: Metadata = {
-  title: "Lorem Ipsum Organization - Professional Services",
-  description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore",
-  generator: "Next.js",
+  title: "Jugendfeuerwehr im Landkreis Starnberg",
+  description: "Erfahren Sie mehr über die Kreisjugendfeuerwehr Landkreis Starnberg: Aktivitäten, Termine, Jugendpokal und Kontaktmöglichkeiten für Jugendliche und Eltern.",
 }
 
 export default function RootLayout({
