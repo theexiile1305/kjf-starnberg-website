@@ -45,7 +45,7 @@ export default function LegalNoticePage() {
                   <strong>Vertreten durch:</strong> Kreisjugendfeuerwehrwart Dr. Franz Matheis
                 </p>
                 <p className="text-gray-700 leading-relaxed mb-2">
-                  <strong>Kontakt:</strong> Tel: <a href="tel:+49123456789" className="text-kjf-blue">+49 123 456 789</a>, E-Mail: <a href="mailto:mail@example.com" className="text-kjf-blue">mail@example.com</a>
+                  <strong>Kontakt:</strong> Tel: <a href="tel:+4981573304" className="text-kjf-blue">+49 815 733 04</a>, E-Mail: <a href="mailto:franz.matheis@kbi.lra-starnberg.de" className="text-kjf-blue">franz.matheis@kbi.lra-starnberg.de</a>
                 </p>
                 <p className="text-gray-700 leading-relaxed mb-2">
                   <strong>Verantwortlich für den Inhalt nach § 18 Abs. 2 MStV:</strong> Dr. Franz Matheis, Buttlerweg 10, 82327 Traubing

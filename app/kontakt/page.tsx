@@ -13,7 +13,7 @@ import { Label } from "@/components/ui/label"
 import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@/components/ui/select"
 import { CircleUser, MapPin, Calendar, Phone, Mail, Camera, Gift, Send, Users, HelpCircle, MessageSquare, UserPlus } from "lucide-react"
 
-export default function KontaktPage() {
+export default function ContactPage() {
   const [formData, setFormData] = useState({
     name: "",
     email: "",
@@ -61,6 +61,18 @@ export default function KontaktPage() {
     {
       title: "Krisendienst Bayern (psychische Krisen, Beratung & Hilfe)",
       phone: "0800 655 3000",
+    },
+    {
+      title: "Frauenhaus / Hilfetelefon Gewalt gegen Frauen",
+      phone: "08000 116 016",
+    },
+    {
+      title: "Hilfetelefon Sexueller Missbrauch",
+      phone: "0800 22 55 530",
+    },
+    {
+      title: "Sucht- & Drogenhotline",
+      phone: "01805 31 30 31",
     }
   ]
 
@@ -69,22 +81,22 @@ export default function KontaktPage() {
       title: "Kreisjugendfeuerwehrwart",
       person: "Dr. Franz Matheis",
       address: "Buttlerweg 10, 82327 Traubing",
-      phone: "+49123456789",
-      email: "mail@example.com"
+      phone: "+4981573304",
+      email: "franz.matheis@kbi.lra-starnberg.de"
     },
     {
       title: "Kreisbrandrat",
       person: "Helmut Schweickart",
       address: "Kreisbrandinspektion Starnberg, Strandbadstraße 2, 82319 Starnberg",
-      phone: "+49123456789",
-      email: "mail@example.com"
+      phone: "+49815114877791",
+      email: "helmut.schweickart@kbi.lra-starnberg.de"
     },
     {
       title: "Verbandsvorsitzende",
       person: "Michael Polednik",
       address: "Reineckestr., 11, 82211 Herrsching",
-      phone: "+49123456789",
-      email: "mail@example.com"
+      phone: "+491707315194",
+      email: "vorsitzender@kfv-starnberg.de"
     },
   ]
 

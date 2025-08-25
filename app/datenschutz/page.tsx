@@ -56,7 +56,7 @@ export default function PrivacyPolicyPage() {
                 Deutschland
               </p>
               <p className="text-gray-700 leading-relaxed">
-                E-Mail-Adresse: <a href="mailto:mail@example.com" className="text-kjf-blue" target="blank">mail@example.com</a>
+                E-Mail-Adresse: <a href="mailto:franz.matheis@kbi.lra-starnberg.de" className="text-kjf-blue" target="blank">franz.matheis@kbi.lra-starnberg.de</a>
               </p>
               <p className="text-gray-700 leading-relaxed">
                 Impressum: <a href="https://kjf-sta.de/impressum" className="text-kjf-blue" target="blank">https://kjf-sta.de/impressum</a>
